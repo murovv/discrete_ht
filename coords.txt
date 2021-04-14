@@ -1,0 +1,141 @@
+Albania:
+  41.32889
+  19.81778
+Andorra:
+  42.5
+  1.5
+Austria:
+  48.2
+  16.367
+Belarus:
+  53.9
+  27.567
+Belgium:
+  50.85
+  4.35
+Bosnia and Herzegovina:
+  43.867
+  18.417
+Bulgaria:
+  42.7
+  23.33
+Croatia:
+  45.817
+  15.983
+Cyprus:
+  35.1725
+  33.365
+Czech Republic:
+  50.083
+  14.417
+Denmark:
+  55.67611
+  12.56833
+Estonia:
+  59.43722
+  24.74528
+Finland:
+  60.17083
+  24.9375
+France:
+  48.856613
+  2.352222
+Germany:
+  52.52
+  13.405
+Greece:
+  37.983972
+  23.727806
+Hungary:
+  47.4925
+  19.05139
+Iceland:
+  64.1475
+  -21.935
+Ireland:
+  53.35
+  -6.267
+Italy:
+  41.883
+  12.5
+Kosovo:
+  42.66333
+  21.16222
+Latvia:
+  56.94889
+  24.10639
+Liechtenstein:
+  47.141
+  9.521
+Lithuania:
+  54.683
+  25.283
+Luxembourg:
+  49.61167
+  6.13194
+Malta:
+  35.89833
+  14.5125
+Moldova:
+  47.022887
+  28.835335
+Monaco:
+  43.733
+  7.417
+Montenegro:
+  42.4412861
+  19.2628917
+Netherlands:
+  52.367
+  4.9
+North Macedonia:
+  42.0
+  21.433
+Norway:
+  59.91389
+  10.75222
+Poland:
+  52.233
+  21.017
+Portugal:
+  38.7252668
+  -9.1500193
+Romania:
+  44.4325
+  26.10389
+Russia:
+  55.75583
+  37.61722
+San Marino:
+  43.9346
+  12.4473
+Serbia:
+  44.817
+  20.467
+Slovakia:
+  48.14389
+  17.10972
+Slovenia:
+  46.05556
+  14.50833
+Spain:
+  40.417
+  -3.717
+Sweden:
+  59.32944
+  18.06861
+Switzerland:
+  46.94806
+  7.4475
+Turkey:
+  39.93
+  32.85
+Ukraine:
+  50.45
+  30.52333
+United Kingdom:
+  51.50722
+  -0.1275
+Vatican City:
+  41.9025
+  12.4525

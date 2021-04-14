@@ -1,0 +1,92 @@
+node1,node2,distance
+Bulgaria,Turkey,1
+Bulgaria,Romania,1
+Bulgaria,North Macedonia,1
+Bulgaria,Serbia,1
+Bulgaria,Greece,1
+Andorra,France,1
+Andorra,Spain,1
+Turkey,Greece,1
+Kosovo,Montenegro,1
+Kosovo,North Macedonia,1
+Kosovo,Albania,1
+Kosovo,Serbia,1
+Monaco,France,1
+Latvia,Estonia,1
+Latvia,Russia,1
+Latvia,Lithuania,1
+Latvia,Belarus,1
+United Kingdom,Ireland,1
+United Kingdom,Cyprus,1
+United Kingdom,Spain,1
+Luxembourg,Germany,1
+Luxembourg,France,1
+Luxembourg,Belgium,1
+Germany,Netherlands,1
+Germany,Austria,1
+Germany,France,1
+Germany,Belgium,1
+Germany,Denmark,1
+Germany,Czech Republic,1
+Germany,Switzerland,1
+Germany,Poland,1
+Romania,Moldova,1
+Romania,Hungary,1
+Romania,Serbia,1
+Romania,Ukraine,1
+Moldova,Ukraine,1
+Estonia,Russia,1
+Slovenia,Hungary,1
+Slovenia,Italy,1
+Slovenia,Croatia,1
+Slovenia,Austria,1
+Montenegro,Albania,1
+Montenegro,Bosnia and Herzegovina,1
+Montenegro,Croatia,1
+Montenegro,Serbia,1
+Hungary,Croatia,1
+Hungary,Austria,1
+Hungary,Slovakia,1
+Hungary,Serbia,1
+Hungary,Ukraine,1
+Italy,Vatican City,1
+Italy,Austria,1
+Italy,France,1
+Italy,San Marino,1
+Italy,Switzerland,1
+North Macedonia,Albania,1
+North Macedonia,Serbia,1
+North Macedonia,Greece,1
+Netherlands,France,1
+Netherlands,Belgium,1
+Finland,Russia,1
+Finland,Norway,1
+Finland,Sweden,1
+Albania,Greece,1
+Bosnia and Herzegovina,Croatia,1
+Bosnia and Herzegovina,Serbia,1
+Russia,Norway,1
+Russia,Lithuania,1
+Russia,Belarus,1
+Russia,Poland,1
+Russia,Ukraine,1
+Croatia,Serbia,1
+Norway,Sweden,1
+Austria,Slovakia,1
+Austria,Czech Republic,1
+Austria,Switzerland,1
+Austria,Liechtenstein,1
+France,Belgium,1
+France,Switzerland,1
+France,Spain,1
+Slovakia,Czech Republic,1
+Slovakia,Poland,1
+Slovakia,Ukraine,1
+Portugal,Spain,1
+Lithuania,Belarus,1
+Lithuania,Poland,1
+Czech Republic,Poland,1
+Switzerland,Liechtenstein,1
+Belarus,Poland,1
+Belarus,Ukraine,1
+Poland,Ukraine,1
