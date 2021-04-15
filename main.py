@@ -63,15 +63,15 @@ gStar.add_nodes_from(europe_countries_list)
 for i in range(len(europe_countries_list)):
     for mate in mates[i]:
         gStar.add_edge(europe_countries_list[i],mate)
-# pos = nx.planar_layout(gStar,scale=10)
-# nx.draw(gStar,pos = pos,with_labels=True)
-# plt.show()
+pos = nx.planar_layout(gStar,scale=10)
+nx.draw(gStar,pos = pos,with_labels=True)
+plt.show()
 
 v = max(nx.connected_components(gStar),key=len)
 g = nx.subgraph(gStar,v)
-# pos = nx.planar_layout(g,scale=10)
-# nx.draw(g,pos = pos,with_labels=True)
-# plt.show()
+pos = nx.planar_layout(g,scale=10)
+nx.draw(g,pos = pos,with_labels=True)
+plt.show()
 
 #B
 print("|V| =",len(v))
@@ -111,10 +111,10 @@ for node in g.nodes:
     else:
         print("ALARM",vertex_coloring[node])
 print(len(node_color))
-# pos = nx.planar_layout(g)
-# nx.draw(g, pos = pos,with_labels=True, node_color=node_color)
-# plt.show()
-# plt.clf()
+pos = nx.planar_layout(g)
+nx.draw(g, pos = pos,with_labels=True, node_color=node_color)
+plt.show()
+plt.clf()
 print("vertex colorinng:",vertex_coloring)
 #E
 max_clique = nx.algorithms.approximation.max_clique(g)
@@ -156,8 +156,8 @@ for iter in range(1):
 print("vertex circuit:",lv_circuit)
 #K
 #здесь нужнен networkx версии 2.0, который не поддерживает planar_layout
-e_circuit,graph = magic.cpp(edgelist_filename="/home/paperblade/PycharmProjects/pythonProject4/table.csv")
-print("edge circuit:",e_circuit)
+#e_circuit,graph = magic.cpp(edgelist_filename="/home/paperblade/PycharmProjects/pythonProject4/table.csv")
+#print("edge circuit:",e_circuit)
 
 #L
 two_vertex_connected_nodes = list(nx.biconnected_components(gStar))
@@ -176,10 +176,10 @@ for art_point in articulation_points:
     for key in int_block_mapping.keys():
         if art_point in int_block_mapping[key]:
             block_cut_tree.add_edge(art_point,key)
-# plt.clf()
-# pos = nx.planar_layout(block_cut_tree,scale=10)
-# nx.draw(block_cut_tree,pos = pos,with_labels=True)
-# plt.show()
+plt.clf()
+pos = nx.planar_layout(block_cut_tree,scale=10)
+nx.draw(block_cut_tree,pos = pos,with_labels=True)
+plt.show()
 print("Legend for blocks:")
 for key in int_block_mapping.keys():
     print(key,":",int_block_mapping[key])
@@ -204,10 +204,10 @@ for start,end in g.edges:
     g[start][end]['weight'] = round(eDist(coords[start],coords[end])*10)/10
 mst = tree.minimum_spanning_tree(g, algorithm="kruskal")
 edgelist = list(mst)
-# plt.clf()
-# pos = nx.planar_layout(mst,scale=10)
-# labels = nx.get_edge_attributes(mst,'weight')
-# nx.draw(mst,pos = pos,with_labels=True)
+plt.clf()
+pos = nx.planar_layout(mst,scale=10)
+labels = nx.get_edge_attributes(mst,'weight')
+nx.draw(mst,pos = pos,with_labels=True)
 #nx.draw_networkx_edge_labels(mst,pos,edge_labels=labels)
 
 plt.show()
